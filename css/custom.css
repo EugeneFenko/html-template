@@ -1,0 +1,36 @@
+/* Portfolio Items */
+
+#p-1 {
+    background-size: cover;
+    background-position: center;
+}
+
+#p-2 {
+    background: url("../portfolio/rsz_gf.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#p-3 {
+    background: url("../portfolio/rsz_total.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#p-4 {
+    background: url("../portfolio/rsz_drj.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#p-5 {
+    background: url("../portfolio/rsz_un.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#p-6 {
+    background: url("../portfolio/rsz_tr.png");
+    background-size: cover;
+    background-position: center;
+}
