@@ -77,8 +77,7 @@ header {
     color: white;
     display: flex !important;
     justify-content: center;
-    background: #888 url("../img/bg-min.jpeg") no-repeat top;
-    background-size: cover;
+    background: #333;
 }
 
 .FixNav {
