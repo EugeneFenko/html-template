@@ -1,6 +1,7 @@
 /* Portfolio Items */
 
 #p-1 {
+    background: url("../portfolio/1.png");
     background-size: cover;
     background-position: center;
 }
