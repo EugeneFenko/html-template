@@ -20,11 +20,15 @@
 }
 
 a,
-a:hover,
-a:link {
+a:link,
+a:visited {
     text-decoration: none !important;
     text-decoration-line: none;
-    color: black;
+    color: rgb(43, 43, 43) !important;
+}
+
+a:hover {
+    color: rgb(41, 41, 41) !important;
 }
 
 .box-text > a {
@@ -48,6 +52,14 @@ a:link {
 
 .plus_box_fix div:last-child {
     border-right: none;
+}
+
+.box-text a {
+    color: #ccc !important;
+}
+
+.box-text a:hover {
+    color: #F44336 !important;
 }
 
 
@@ -132,6 +144,7 @@ header {
 .navbar {
     z-index: 20;
     background: rgba(240, 240, 240, 0.8);
+    color: #282828 !important;
 }
 
 .navbar-nav a.active {
@@ -183,9 +196,14 @@ header {
     width: 100%;
     border: 1px solid #ddd;
     border-radius: 50%;
-    background: #eee;
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    background-attachment: fixed;
 }
 
+.foot_social a {
+    color: white !important;
+}
 
 /*3.2.ContactMe*/
 
