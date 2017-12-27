@@ -253,6 +253,15 @@ header {
     overflow: hidden;
     background: url("../img/placeholder.png");
     border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-item i {
+    font-size: 10rem;
+    text-shadow: 2px 2px 2px gray;
+    color: white;
 }
 
 .box-text {
