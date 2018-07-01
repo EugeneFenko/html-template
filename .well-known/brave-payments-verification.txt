@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: eugenefenko.github.io
+Token: 6016d116d4ba26d3256c2f562839f1b8dc6c58598f711b5a873ec2b016f2276a
