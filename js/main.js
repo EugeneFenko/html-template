@@ -131,3 +131,8 @@ $(document).ready(function() {
         return false;
     })
 });
+
+
+// GetYear
+let now = new Date;
+document.getElementById('copyYear').textContent = now.getFullYear();
