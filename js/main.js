@@ -67,6 +67,18 @@ $(document).ready(function(){
 	
 });
 
+// Animation
+$(document).ready(function(){
+    
+    $('.about_img img').hover(function () {
+            // over
+            $('.about_img img').addClass('floater');
+        }, function () {
+            // out
+            $('.about_img img').removeClass('floater');
+        }
+    );
+});
 
 //ActiveMenu
 var menu_selector = ".navbar-nav"; // Переменная должна содержать название класса или идентификатора, обертки нашего меню.
