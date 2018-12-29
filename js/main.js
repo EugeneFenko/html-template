@@ -4,8 +4,11 @@ $(document).ready(function(){
 
 	// OwlCarousel
 	$('.owl-carousel').owlCarousel({
+		autoplay:true,
+    		autoplayTimeout:1000,
+    		autoplayHoverPause:true,
 		loop:true,
-    margin:0,
+    		margin:0,
 		dots:false,
     responsive:{
         0:{
