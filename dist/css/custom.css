@@ -232,3 +232,15 @@
   transition-timing-function: linear;
   transition-delay: 0.95s;
 }
+
+.skill-list-title {
+  font-size: 2.5rem;
+}
+
+.skill-list-item {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  text-decoration: none; 
+  list-style: none;
+  text-align: center;
+}

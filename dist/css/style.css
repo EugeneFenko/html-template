@@ -93,11 +93,15 @@ a:hover {
 /*2.Header*/
 
 header {
-    height: 100vh;
-    color: white;
+    min-height: 100vh;
+    color:#464a4c;
     display: flex !important;
-    justify-content: center;
-    background: #333;
+    justify-content: left;
+    background: url("../img/back.svg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
 }
 
 .FixNav {
@@ -725,11 +729,20 @@ textarea {
     }
 }
 
+@media (max-width: 767px) {
+    header {
+        background: #fefefe;
+        background-image: none;
+    }
+    
+}
+
 @media (max-width: 868px) {
     .contact-form {
         width: 100%;
         padding: 40px;
     }
+   
 }
 
 @media (max-width: 568px) {

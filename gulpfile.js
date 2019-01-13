@@ -40,7 +40,7 @@ gulp.task("clr", function() {
 
 
 gulp.task('dev',['browser-sync', 'reApp'], function() {
-  gulp.watch('./src/index.html');
+  gulp.watch('./src/index.html',['reApp']);
   gulp.watch('./src/css/*.css',['reApp'])
   gulp.watch('./src/js/*.js',['reApp'])
   // gulp.watch('./locales/*.json',['i18n'])
