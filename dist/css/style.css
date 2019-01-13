@@ -93,15 +93,48 @@ a:hover {
 /*2.Header*/
 
 header {
-    min-height: 100vh;
+    height: 100vh;
     color:#464a4c;
-    display: flex !important;
+    background: #4bcff7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eaf8f4, #4bcff7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eaf8f4, #4bcff7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                  display: flex !important;
     justify-content: left;
-    background: url("../img/back.svg");
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 0px bottom;
     background-size: contain;
+}
+
+@media (min-width: 576px) {
+    header {
+        /* background-color: #eaf8f4; */
+        /* background-image: none; */
+    }
+}
+@media (min-width: 768px) {
+    header {
+        /* background-image: none; */
+        /* background-color: #eaf8f4; */
+    }
+}
+@media (min-width: 992px) {
+    header {
+        background-color: white;
+        background-position: 250% bottom;
+        background-image: url("../img/back.svg");
+    }
+    #text_logo {
+        justify-content: center;
+    } 
+}
+@media (min-width: 1200px) {
+    header {
+        background-position-x: right;
+    }
+    #text_logo {
+        justify-content: center;
+    } 
 }
 
 .FixNav {
@@ -112,10 +145,11 @@ header {
 }
 
 #text_logo {
+    margin-top: 5%;
     display: flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -729,13 +763,6 @@ textarea {
     }
 }
 
-@media (max-width: 767px) {
-    header {
-        background: #fefefe;
-        background-image: none;
-    }
-    
-}
 
 @media (max-width: 868px) {
     .contact-form {

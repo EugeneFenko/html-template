@@ -4,7 +4,7 @@
   "description": "Eugene Fenko - web developer portfolio.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "node deploy.github.jsu"
   },
   "repository": {
     "type": "git",
