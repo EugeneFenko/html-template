@@ -4,7 +4,7 @@
   "description": "Eugene Fenko - web developer portfolio.",
   "main": "index.js",
   "scripts": {
-    "deploy": "node deploy.github.jsu"
+    "deploy": "node deploy.github.js"
   },
   "repository": {
     "type": "git",
