@@ -16,7 +16,7 @@ $(document).ready(function () {
             0: {
                 items: 1,
             },
-            600: {
+            800: {
                 items: 2,
                 // mergeFit:true
             },
@@ -68,18 +68,18 @@ $(document).ready(function () {
 
 });
 
-// Animation
-$(document).ready(function () {
+// // Animation
+// $(document).ready(function () {
 
-    $('.about_img img').hover(function () {
-        // over
-        $('.about_img img').addClass('floater');
-    }, function () {
-        // out
-        $('.about_img img').removeClass('floater');
-    }
-    );
-});
+//     $('.about_img img').hover(function () {
+//         // over
+//         $('.about_img img').addClass('floater');
+//     }, function () {
+//         // out
+//         $('.about_img img').removeClass('floater');
+//     }
+//     );
+// });
 
 //ActiveMenu
 var menu_selector = ".navbar-nav"; // Переменная должна содержать название класса или идентификатора, обертки нашего меню.

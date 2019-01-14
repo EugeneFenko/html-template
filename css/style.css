@@ -217,6 +217,11 @@ header {
     justify-content: center;
 }
 
+#github-data {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
 .about_text>h3 {
     font-size: 36px;
     padding: 0 0 10px 0;
