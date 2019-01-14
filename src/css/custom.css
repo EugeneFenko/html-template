@@ -268,13 +268,34 @@
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
   border-radius: 3px;
   margin-top: 9px;
-  width: 380px;
+  width: 90vw;
   height: 108px;
   -webkit-transition: all 200ms ease-out;
   -moz-transition: all 200ms ease-out;
   -ms-transition: all 200ms ease-out;
   -o-transition: all 200ms ease-out;
   transition: all 200ms ease-out;
+}
+
+@media(min-width:576px){
+  .skill-box-item {
+    width: 70vw;
+  }
+}
+@media(min-width:768px){
+  .skill-box-item {
+    width: 40vw;
+  }
+}
+@media(min-width:1000px){
+  .skill-box-item {
+    width: 30vw;
+  }
+}
+@media(min-width:1400px){
+  .skill-box-item {
+    width: 25vw;
+  }
 }
 
 .skill-box-item:hover {
