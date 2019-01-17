@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/EugeneFenko/eugenefenko.github.io#readme",
   "dependencies": {
+
+  },
+  "devDependencies": {
+    "pug": "^2.0.3",
     "browser-sync": "^2.26.3",
     "gh-pages": "^2.0.1",
     "gulp": "^3.9.1",

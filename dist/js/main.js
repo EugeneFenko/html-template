@@ -1,12 +1,13 @@
-
+// AOS
+AOS.init();
 
 $(document).ready(function () {
 
     // OwlCarousel
     $('.owl-carousel').owlCarousel({
         autoplay: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true,
+        autoplayTimeout: 2500,
+        autoplayHoverPause: false,
         loop: true,
         margin: 0,
         dots: false,
@@ -102,7 +103,7 @@ $(document).ready(function () {
 
     $(document).on("scroll", onScroll);
 
-    $("a[href^=#]").click(function (e) {
+    $("a[href^='#']").click(function (e) {
         e.preventDefault();
 
         $(document).off("scroll");
@@ -138,7 +139,7 @@ $(window).scroll(function () {
 
 $(document).ready(function () {
     var page = $('#main-wrap');
-    $(window).mousewheel(function (event, delta, deltaX, deltaY) {
+    $(window).on('scroll',function (event, delta, deltaX, deltaY) {
         if (delta < 0) page.scrollTop(page.scrollTop() + 65);
         else if (delta > 0) page.scrollTop(page.scrollTop() - 65);
         return false;

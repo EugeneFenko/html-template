@@ -15,6 +15,10 @@
     z-index: 10;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .center {
     text-align: center;
 }
@@ -64,6 +68,9 @@ a:hover {
 
 
 /*COLORS*/
+::selection {
+    background: #f3db2d; /* WebKit/Blink Browsers */
+}
 
 .b_orange {
     background: orange;

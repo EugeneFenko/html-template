@@ -59,7 +59,10 @@
 
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/v4-shims.css">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/v4-shims.css"> 
+    
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body id="main-wrap">
@@ -248,7 +251,7 @@
                   <ul class="skill-list-item">
                       <li>
                         <div class="skill-box-item">
-                            <i class="fab fa-js-square"></i><span>EcmaScript 6</span>
+                            <i class="fab fa-js-square"></i><span>ECMAScript 6</span>
                         </div>
                         <div class="skill-box-item">
                             <i class="fas fa-project-diagram"></i><span>API</span>    
@@ -474,23 +477,6 @@
     </article>
     <!-- /Portfolio -->
 
-    <!-- Partner -->
-    <!--
-      <article class="container box" id="partner">
-          <div class="row plus_box_fix">
-              <div class="col-12">
-                  <h2 class="box_title center">Our partners</h2>
-              </div>
-              <div class="col partner plus_box "><i class="fa fa-google" aria-hidden="true"></i></div>
-              <div class="col partner plus_box"><i class="fa fa-google-wallet" aria-hidden="true"></i></div>
-              <div class="col partner plus_box"><i class="fa fa-pinterest" aria-hidden="true"></i></div>
-              <div class="col partner plus_box"><i class="fa fa-youtube" aria-hidden="true"></i></div>
-              <div class="col partner plus_box"><i class="fa fa-vk" aria-hidden="true"></i></div>
-          </div>
-      </article>
-    -->
-    <!-- /Partner -->
-
     <!-- Timeline -->
     <div class="container-fluid timeline_box box" id="timeline">
       <div class="container">
@@ -499,8 +485,8 @@
         </div>
         <ul class="timeline">
           <li>
-            <div class="timeline-badge"><i class="fa fa-check"></i></div>
-            <div class="timeline-panel">
+            <div class="timeline-badge" data-aos="zoom-in"><i class="fa fa-check"></i></div>
+            <div class="timeline-panel" data-aos="fade-up">
               <div class="timeline-heading">
                 <h4 class="timeline-title">
                   <i class="fa fa-graduation-cap"></i> School
@@ -515,8 +501,8 @@
             </div>
           </li>
           <li class="timeline-inverted">
-            <div class="timeline-badge"><i class="fa fa-check"></i></div>
-            <div class="timeline-panel">
+            <div class="timeline-badge" data-aos="zoom-in"><i class="fa fa-check"></i></div>
+            <div class="timeline-panel" data-aos="fade-up">
               <div class="timeline-heading">
                 <h4 class="timeline-title">
                   <i class="fa fa-university"></i> University
@@ -537,8 +523,8 @@
             </div>
           </li>
           <li>
-            <div class="timeline-badge"><i class="fa fa-check"></i></div>
-            <div class="timeline-panel">
+            <div class="timeline-badge" data-aos="zoom-in"><i class="fa fa-check"></i></div>
+            <div class="timeline-panel" data-aos="fade-up">
               <div class="timeline-heading">
                 <h4 class="timeline-title">
                   <i class="fa fa-briefcase"></i> Freelancer
@@ -555,8 +541,8 @@
             </div>
           </li>
           <li class="timeline-inverted">
-            <div class="timeline-badge"><i class="fa fa-check"></i></div>
-            <div class="timeline-panel">
+            <div class="timeline-badge" data-aos="zoom-in"><i class="fa fa-check"></i></div>
+            <div class="timeline-panel" data-aos="fade-up">
               <div class="timeline-heading">
                 <h4 class="timeline-title">
                   <i class="fa fa-code"></i> Pet-project
@@ -573,8 +559,8 @@
             </div>
           </li>
           <li>
-            <div class="timeline-badge"><i class="fa fa-check"></i></div>
-            <div class="timeline-panel">
+            <div class="timeline-badge" data-aos="zoom-in"><i class="fa fa-check"></i></div>
+            <div class="timeline-panel" data-aos="fade-up">
               <div class="timeline-heading">
                 <h4 class="timeline-title">
                   <i class="fa fa-university"></i> University
@@ -603,7 +589,7 @@
     <div class="container box" id="hire">
       <h2 class="box_title center">HireMe</h2>
       <div class="row hire_fix">
-        <div class="col-12 col-sm-6 hire center">
+        <div class="col-12 col-sm-6 hire center" data-aos="zoom-in-left">
           <a
             target="_blank"
             href="https://www.upwork.com/o/profiles/users/_~01565ef32404d31fcf/"
@@ -612,7 +598,7 @@
 
           <!-- image -->
         </div>
-        <div class="col-12 col-sm-6 hire center">
+        <div class="col-12 col-sm-6 hire center" data-aos="zoom-in-right">
           <a
             target="_blank"
             href="https://freelancehunt.com/freelancer/efenko.html?r=ZpELy"
@@ -825,6 +811,8 @@
     <script src="js/jquery.min.js"></script>
     <!-- OwlCarousel -->
     <script src="js/owl.carousel.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Main template script -->
     <script src="js/main.js"></script>
     <!-- Custom template script(can be change) -->
