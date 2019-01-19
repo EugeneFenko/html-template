@@ -90,7 +90,13 @@ const config = {
       },
       {
         test: /\.scss$/,
-        use: ['style-loader', MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader']
+        use: [
+          'style-loader', 
+          MiniCssExtractPlugin.loader, 
+          'css-loader', 
+          'postcss-loader', 
+          'sass-loader'
+        ],
       },
       {
         test: /bootstrap\/dist\/js\/umd\//,
@@ -117,7 +123,7 @@ const config = {
               },
               // optipng.enabled: false will disable optipng
               optipng: {
-                enabled: false,
+                enabled: true,
               },
               pngquant: {
                 quality: '65-90',
@@ -134,8 +140,8 @@ const config = {
           },
         ],
       },
-      { test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "url-loader?limit=10000&mimetype=application/font-woff" },
-      { test: /\.(ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader" }
+      { test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "url-loader?limit=10000&mimetype=application/font-woff&name=fonts/[name].[ext]" },
+      { test: /\.(ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader?name=fonts/[name].[ext]" }
     ]
   }
 };
