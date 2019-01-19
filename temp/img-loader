@@ -1,0 +1,31 @@
+ {
+        test: /\.(gif|png|jpe?g|svg|webp|ico)$/i,
+        use: [
+          `file-loader?name=`,
+          {
+            loader: 'image-webpack-loader',
+            options: {
+              disable: false, // webpack@2.x and newer
+              mozjpeg: {
+                progressive: false,
+                quality: 100
+              },
+              // optipng.enabled: false will disable optipng
+              optipng: {
+                enabled: false,
+              },
+              pngquant: {
+                quality: '65-90',
+                speed: 4
+              },
+              gifsicle: {
+                interlaced: false,
+              },
+              // the webp option will enable WEBP
+              webp: {
+                quality: 50
+              }
+            },
+          },
+        ],
+      },

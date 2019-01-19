@@ -1,0 +1,43 @@
+#contact
+  .col-12.box.container.contact_box
+    .row.plus_box_fix
+      .col-12
+        h2.box_title.center Contact Me
+      .col.col-md-2.offset-md-2.contact.plus_box
+        a(target='_blank', href='https://www.facebook.com/profile.php?id=100004038442110')
+          i.fab.fa-facebook(aria-hidden='true')
+      .col.col-md-2.contact.plus_box
+        a(target='_blank', href='https://github.com/EugeneFenko')
+          i.fab.fa-github(aria-hidden='true')
+      .col.col-md-2.contact.plus_box
+        a(target='_blank', href='https://www.linkedin.com/in/eugene-fenko-a969b898/')
+          i.fab.fa-linkedin(aria-hidden='true')
+      .col.col-md-2.contact.plus_box
+        a(target='_blank', href='https://t.me/Eugene_Fenko')
+          i.fab.fa-telegram(aria-hidden='true')
+  #section
+    .contact-wrap
+      form.contact-form.row(method='POST', action='https://formspree.io/gt60@ya.ru')
+        .col-6
+          .input-block
+            label(for='c_name') First Name
+            input#c_name.form-control(name='firstName', type='text')
+        .col-6
+          .input-block
+            label(for='c_lname') Last Name
+            input#c_lname.form-control(type='text', name='lastName')
+        .col-sm-12
+          .input-block
+            label(for='email') Email
+            input#email.form-control(name='_replyto', type='text')
+        .col-sm-12
+          .input-block
+            label(for='c_msg_title') Message Subject
+            input#c_msg_title.form-control(type='text', name='subject')
+        .col-sm-12
+          .input-block.textarea
+            label(for='msg') Drop your message here
+            textarea#msg.form-control(rows='3', name='message')
+        .col-sm-12
+          button.square-button(type='submit') Send 
+            i.fas.fa-paper-plane
