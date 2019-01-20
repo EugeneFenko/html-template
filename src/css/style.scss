@@ -14,7 +14,7 @@
     z-index: 10;
 }
 
-body {
+html,body {
     overflow-x: hidden;
 }
 
@@ -365,14 +365,6 @@ header {
         padding-top: 25%;
     }
 }
-
-
-/*3.5.Partner*/
-
-.partner {
-    font-size: 70px;
-}
-
 
 /*3.6.Timeline*/
 

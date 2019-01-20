@@ -43,7 +43,7 @@
 /* don't forget to add your own colors and parameters */
 .portfolio-effect {
   display: grid;
-  grid: repeat(6, 270px) / repeat(1, 300px);
+  grid: repeat(6, 50vh) / repeat(1, 100vw);
   grid-gap: 10px;
   justify-content: center;
   align-items: center;
@@ -81,7 +81,7 @@
 }
 @media (min-width: 1200px) {
   .portfolio-effect {
-    grid: repeat(3, 400px) / repeat(3, 400px);
+    grid: repeat(3, 60vh) / repeat(3, 33.36vw);
   }
 }
 
