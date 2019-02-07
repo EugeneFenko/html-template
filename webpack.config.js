@@ -18,8 +18,7 @@ const config = {
     publicPath: '/',
   },
   devServer: {
-    port: 3000,
-    host: '192.168.1.118'
+    port: 3000
   },
   plugins: [
     new HtmlWebpackPlugin({

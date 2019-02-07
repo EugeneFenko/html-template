@@ -1,50 +1,44 @@
 /* Portfolio Items */
 
 #p-1 {
-  background: url("../img/portfolio_min/portfolio_0_.webp");
-  background-size: cover;
+  background-image: url("../img/portfolio/ipsec.png");
   background-position: center;
-  /* grid-column: 1/3; */
-}
-
-#p-2 {
-  background: url("../img/portfolio_min/portfolio-_5_.webp");
-  background-size: cover;
-  background-position: center;
-}
-
-#p-3 {
-  background: url("../img/portfolio_min/portfolio-_4_.webp");
-  background-size: cover;
-  background-position: center;
-  /* grid-row: 2/4; */
+  background-color: #7FAF1B;
 }
 
 #p-4 {
-  background: url("../img/portfolio_min/portfolio-_3_.webp");
-  background-size: cover;
+  background-image: url("../img/portfolio/geekfen.png");
   background-position: center;
-  /* grid-column: 2/4; */
+  background-color: #00B4FF;
+  grid-row: 3;
+}
+
+#p-2 {
+  background-image: url("../img/HOMEPAGE/mockup.png");
+}
+
+#p-3 {
+  background-image: url("../img/HOMEPAGE/mockup\(копія\ 2\).png");
 }
 
 #p-5 {
-  background: url("../img/portfolio_min/portfolio-_2_.webp");
-  background-size: cover;
+  background-image: url("../img/portfolio/uniland.png");
+  background-size: contain;
   background-position: center;
+  background-color: #f44336;
 }
 
 #p-6 {
-  background: url("../img/portfolio_min/portfolio-_1_.webp");
-  background-size: cover;
-  background-position: center;
+  background-image: url("../img/HOMEPAGE/mockup\(копія\).png");
 }
+
 
 /* effects styles !!!YOU NEED THEM */
 /* don't forget to add your own colors and parameters */
 .portfolio-effect {
   display: grid;
   grid: repeat(6, 50vh) / repeat(1, 100vw);
-  grid-gap: 10px;
+  // grid-gap: 10px;
   justify-content: center;
   align-items: center;
 }
@@ -52,36 +46,36 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .portfolio-effect {
-    grid: repeat(3, 190px) / repeat(3, 190px);
+    grid: repeat(4, 50vh) / repeat(2, 50vw);
     gap: 0;
   }
   #p-1 {
-    grid-column: 1/3;
+    // grid-row: 1/3;
   }
   #p-3 {
-    grid-row: 2/4;
+    // grid-row: 2/3;
   }
   #p-4 {
-    grid-column: 2/4;
+    // grid-column: 1/2;
   }
 }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 767px) {
-  .portfolio-effect {
-    grid: repeat(3, 250px) / repeat(3, 250px);
-  }
-}
+// /* // Medium devices (tablets, 768px and up) */
+// @media (min-width: 767px) {
+//   .portfolio-effect {
+//     grid: repeat(3, 250px) / repeat(3, 250px);
+//   }
+// }
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 991px) {
-  .portfolio-effect {
-    grid: repeat(3, 300px) / repeat(3, 300px);
-  }
-}
+// /* // Large devices (desktops, 992px and up) */
+// @media (min-width: 991px) {
+//   .portfolio-effect {
+//     grid: repeat(3, 300px) / repeat(3, 300px);
+//   }
+// }
 @media (min-width: 1200px) {
   .portfolio-effect {
-    grid: repeat(3, 60vh) / repeat(3, 33.36vw);
+    // grid: repeat(3, 60vh) / repeat(3, 33.36vw);
   }
 }
 
@@ -90,6 +84,9 @@
   overflow: hidden;
   width: 100%;
   height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
 .portfolio-item img {
   position: absolute;
