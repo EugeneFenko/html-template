@@ -186,5 +186,9 @@ fetch("https://api.github.com/users/EugeneFenko").then( data =>{
               </div>
           `;
           append(github_div, div_data);
-          console.log(user)});
+        //   console.log(user)
+        });
 });
+
+
+console.info("👋 Hello, hacker!")
