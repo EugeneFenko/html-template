@@ -18,7 +18,8 @@ const config = {
     publicPath: '/',
   },
   devServer: {
-    port: 3000
+    port: 3000,
+    host: '192.168.1.118'
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -72,7 +73,7 @@ const config = {
       {
         from: './src/ReadMe.md',
         to: './'
-      }
+      },
     ]),
   ],
   module: {

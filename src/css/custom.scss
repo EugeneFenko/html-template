@@ -1,35 +1,43 @@
 /* Portfolio Items */
 
-#p-1 {
+#p-ipsec {
   background-image: url("../img/portfolio/ipsec.png");
-  background-position: center;
-  background-color: #7FAF1B;
+  background-color: #263238;
+  grid-area: ipsec;
 }
 
-#p-4 {
+#p-geekfen {
   background-image: url("../img/portfolio/geekfen.png");
-  background-position: center;
-  background-color: #00B4FF;
-  grid-row: 3;
+  grid-area: geekfen;
+  background-color: #546e7a;
 }
 
-#p-2 {
-  background-image: url("../img/HOMEPAGE/mockup.png");
+#p-drjulia {
+  background-image: url("../img/portfolio/drjulia.png");
+  grid-area: drjulia;
+  background-color: #689F38;
 }
 
-#p-3 {
-  background-image: url("../img/HOMEPAGE/mockup\(копія\ 2\).png");
+#p-totaleu {
+  background-image: url("../img/portfolio/totaleu.png");
+  background-color: #FBC02D;
+  grid-area: totaleu;
 }
 
-#p-5 {
+#p-uniland {
   background-image: url("../img/portfolio/uniland.png");
-  background-size: contain;
-  background-position: center;
   background-color: #f44336;
+  grid-area: uniland;
 }
 
-#p-6 {
-  background-image: url("../img/HOMEPAGE/mockup\(копія\).png");
+#p-trpharm {
+  background-image: url("../img/portfolio/trpharm.png");
+  grid-area: trpharm;
+  background-color: #eceff1;
+}
+
+#p-new {
+  grid-area: new-project;
 }
 
 
@@ -37,27 +45,30 @@
 /* don't forget to add your own colors and parameters */
 .portfolio-effect {
   display: grid;
-  grid: repeat(6, 50vh) / repeat(1, 100vw);
-  // grid-gap: 10px;
+  grid: repeat(7, 50vh) / repeat(1, 100vw);
   justify-content: center;
   align-items: center;
+  grid-template-areas:
+    "ipsec"
+    "totaleu"
+    "uniland"
+    "drjulia"
+    "geekfen"
+    "trpharm"
+    "new-project";
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .portfolio-effect {
     grid: repeat(4, 50vh) / repeat(2, 50vw);
-    gap: 0;
+    grid-template-areas:
+    "ipsec totaleu"
+    "drjulia uniland"
+    "geekfen trpharm"
+    "new-project new-project";
   }
-  #p-1 {
-    // grid-row: 1/3;
-  }
-  #p-3 {
-    // grid-row: 2/3;
-  }
-  #p-4 {
-    // grid-column: 1/2;
-  }
+
 }
 
 // /* // Medium devices (tablets, 768px and up) */
@@ -73,11 +84,6 @@
 //     grid: repeat(3, 300px) / repeat(3, 300px);
 //   }
 // }
-@media (min-width: 1200px) {
-  .portfolio-effect {
-    // grid: repeat(3, 60vh) / repeat(3, 33.36vw);
-  }
-}
 
 .portfolio-item {
   position: relative;
@@ -85,8 +91,8 @@
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
+  background-size: contain;
+  background-position: center;
 }
 .portfolio-item img {
   position: absolute;
