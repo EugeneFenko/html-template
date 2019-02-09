@@ -1,6 +1,15 @@
 var AOS = require('aos');
 
+//CSSans 
+function CSSans(s,n){var c='<div class="cssans__word">',e='<div class="cssans__accessible">'+encodeURI(n)+"</div>"+c;for(var i in n)e+=" "==n[i]?"</div>"+c:'<b class="cssans:'+encodeURI(n[i])+'"></b>';return e+="</div>",s.innerHTML=e,s.style.lineHeight="0px",e}
+// CSSans-conf
+let myName = document.getElementById('header__name');
+CSSans(myName, 'Eugene Fenko');
+
 $(document).ready(function () {
+    
+  
+
     // AOS
     AOS.init();
     window.addEventListener('load', AOS.refresh);
