@@ -8,8 +8,6 @@ CSSans(myName, 'Eugene Fenko');
 
 $(document).ready(function () {
     
-  
-
     // AOS
     AOS.init();
     window.addEventListener('load', AOS.refresh);

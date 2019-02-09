@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "deploy": "node deploy.github.js",
-    "prod": "webpack --mode=production",
+    "build": "webpack --mode=production",
     "dev": "webpack-dev-server --watch --mode=development"
   },
   "repository": {

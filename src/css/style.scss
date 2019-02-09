@@ -101,9 +101,6 @@ a:hover {
 header {
     height: 100vh;
     color:#464a4c;
-    // background: #4bcff7;  /* fallback for old browsers */
-    // background: -webkit-linear-gradient(to right, #eaf8f4, #4bcff7);  /* Chrome 10-25, Safari 5.1-6 */
-    // background: linear-gradient(to right, #eaf8f4, #4bcff7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: #fc00ff;  /* fallback for old browsers */
     background: -webkit-linear-gradient(35deg, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(35deg, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -116,18 +113,6 @@ header {
     background-size: contain;
 }
 
-@media (max-width: 599px) {
-    header {
-        /* background-color: #eaf8f4; */
-        /* background-image: none; */
-    }
-}
-@media (min-width: 768px) {
-    header {
-        /* background-image: none; */
-        /* background-color: #eaf8f4; */
-    }
-}
 @media (min-width: 992px) {
     header {
         background-color: white;
