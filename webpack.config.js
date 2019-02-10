@@ -44,11 +44,13 @@ const config = {
     new CopyWebpackPlugin([
       {
         from: './src/*.svg',
-        to: './'
+        to: './',
+        flatten: true
       },
       {
-        from: './src/*.png',
-        to: './'
+        from: 'src/*.png',
+        to: './',
+        flatten: true
       },
       {
         from: './src/img',
@@ -74,7 +76,8 @@ const config = {
         from: './src/robots.txt',
         to: './'
       },
-    ]),
+    ],),
+
   ],
   module: {
     rules: [
