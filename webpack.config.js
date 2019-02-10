@@ -43,11 +43,11 @@ const config = {
     }),
     new CopyWebpackPlugin([
       {
-        from: './src/favicon.svg',
+        from: './src/*.svg',
         to: './'
       },
       {
-        from: './src/favicon.png',
+        from: './src/*.png',
         to: './'
       },
       {
@@ -60,6 +60,18 @@ const config = {
       },
       {
         from: './src/ReadMe.md',
+        to: './'
+      },
+      {
+        from: './src/browserconfig.xml',
+        to: './'
+      },
+      {
+        from: './src/site.webmanifest',
+        to: './'
+      },
+      {
+        from: './src/robots.txt',
         to: './'
       },
     ]),
