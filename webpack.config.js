@@ -54,7 +54,8 @@ const config = {
       },
       {
         from: './src/img',
-        to: './img'
+        to: './img',
+        flatten: true
       },
       {
         from: './src/CNAME',
@@ -74,6 +75,10 @@ const config = {
       },
       {
         from: './src/robots.txt',
+        to: './'
+      },
+      {
+        from: './src/manifest.json',
         to: './'
       },
     ],),
