@@ -8757,6 +8757,26 @@ header {
 .foot_social a {
   color: white !important; }
 
+/*3.1.1.Certificate*/
+#cert {
+  padding-bottom: 80px; }
+
+.cert_container {
+  justify-content: center;
+  text-align: center; }
+  .cert_container .cert_image {
+    max-width: 700px;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 2%;
+    padding: 0 0 10px;
+    z-index: 10; }
+    .cert_container .cert_image:hover {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+      transition: ease;
+      transition-duration: 1s; }
+
 /*3.2.ContactMe*/
 .contact {
   font-size: 42px; }
@@ -8774,7 +8794,7 @@ header {
           column-count: 2; }
 
 .owl-list {
-  width: 96vw;
+  width: 100vw;
   margin: 0 auto; }
 
 .skill-owl {
