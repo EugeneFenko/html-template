@@ -9312,7 +9312,9 @@ footer {
   background-color: #eceff1; }
 
 #p-new {
-  grid-area: new-project; }
+  grid-area: new-project;
+  background-image: url(/img/memphis-colorful.png);
+  background-repeat: repeat; }
 
 /* effects styles !!!YOU NEED THEM */
 /* don't forget to add your own colors and parameters */
