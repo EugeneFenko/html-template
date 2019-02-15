@@ -178,18 +178,19 @@ fetch("https://api.github.com/users/EugeneFenko").then( data =>{
           div_data.className = "row"
           div_data.innerHTML = `
               <div class="col-12 col-sm-6">
-                  <p><i class="fas fa-map-marker-alt"></i> ${user.location}</p>
-                  <p><i class="fas fa-user-friends"></i> <a target="_blank" href="${user.html_url}">${user.company}</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> ${user.location}</p>
+                <p><i class="fab fa-github"></i> <a target="_blank" href="${user.html_url}">${user.company}</a></p>
               </div>
               <div class="col-12 col-sm-6">
-                  <p><i class="fas fa-users"></i> Followers: ${user.followers}</p>
-                  <p><i class="fas fa-bookmark"></i> Following: ${user.following}</p>
+                <p><i class="fas fa-users"></i> Followers: ${user.followers}</p>
+                <p><i class="fas fa-bookmark"></i> Following: ${user.following}</p>
               </div>
               <div class="col-12 col-lg-6">
-                  <p><i class="fas fa-link"></i> <a target="_blank" href="https://${user.blog}">${user.blog}</a></p>
+              <p><i class="fas fa-link"></i> <a target="_blank" href="https://${user.blog}">${user.blog}</a></p>
+              <p><i class="fab fa-free-code-camp"></i> <a target="_blank" href="https://www.freecodecamp.org/eugenefenko">freeCodeCamp</a></p>
               </div>
               <div class="col-12 col-lg-6">
-                  <p><i class="fas fa-folder-open"></i> Public repositories: ${user.public_repos}</p>
+                <p><i class="fas fa-folder-open"></i> Public repositories: ${user.public_repos}</p>
               </div>
           `;
           append(github_div, div_data);
