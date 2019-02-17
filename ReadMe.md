@@ -32,7 +32,8 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://github.com/EugeneFenko/eugenefenko.github.io/blob/master/img/screen.png)
+<img src="https://github.com/EugeneFenko/eugenefenko.github.io/blob/master/img/screen.png" style="width: 100%; border-radius: 20px;">
+
 
 ## Key Features
 
