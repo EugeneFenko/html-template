@@ -106,3 +106,6 @@ MIT
 > [fenko.ga](https://fenko.ga) &nbsp;&middot;&nbsp;
 > GitHub [@eugenefenko](https://github.com/eugenefenko) &nbsp;&middot;&nbsp;
 > LinkedIn [@eugenefenko](https://www.linkedin.com/in/eugene-fenko-a969b898/)
+
+## GitHub cheats
+  - Test (commit 26.02.2019 from 24.02.2019)
