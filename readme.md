@@ -110,3 +110,4 @@ MIT
 ## GitHub cheats
   - Test (commit 26.02.2019 from 24.02.2019)
   - Test 2 (commit 26.02.2019 from 25.02.2019)
+  - Test 3 (normal commit - 26.02.2019)
