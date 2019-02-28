@@ -96,15 +96,16 @@ a:hover {
 }
 
 
+
+
 /*2.Header*/
 
 header {
     height: 100vh;
     color:#464a4c;
-    background: #fc00ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(35deg, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(35deg, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            
+    //background: #dadada;
+    //background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);           
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     display: flex !important;
     justify-content: left;
     background-attachment: scroll;
@@ -115,6 +116,10 @@ header {
 
 @media (min-width: 992px) {
     header {
+        animation: none;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
         background-color: white;
         background-position: 250% bottom;
         background-image: url("../img/back.svg");
