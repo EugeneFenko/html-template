@@ -4,7 +4,7 @@
   "description": "Eugene Fenko - web developer portfolio.",
   "main": "index.js",
   "scripts": {
-    "deploy": "webpack --mode=production && node deploy.github.js",
+    "deploy": "node deploy.github.js",
     "build": "webpack --mode=production",
     "dev": "webpack-dev-server --watch --mode=development"
   },
