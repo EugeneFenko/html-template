@@ -13,13 +13,11 @@ $(document).ready(function () {
     window.addEventListener('load', AOS.refresh);
 
     // OwlCarousel
-    $('.owl-carousel').owlCarousel({
+    $('.owl-skill').owlCarousel({
         autoplay: true,
         autoplayTimeout: 2500,
         autoplayHoverPause: false,
         loop: true,
-        margin: 0,
-        dots: false,
         margin: 0,
         dots: false,
         responsive: {
@@ -32,6 +30,29 @@ $(document).ready(function () {
             },
             1000: {
                 items: 3,
+                // mergeFit:true
+            }
+        }
+    })
+
+      // OwlCarousel
+      $('.owl-cert').owlCarousel({
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        loop: true,
+        margin: 0,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 2,
+                // mergeFit:true
+            },
+            1000: {
+                items: 2,
                 // mergeFit:true
             }
         }
@@ -199,4 +220,4 @@ fetch("https://api.github.com/users/EugeneFenko").then( data =>{
 });
 
 
-console.info("👋 Hello, hacker!")
+console.info("👋 Hello, hacker!\n\nIf you find a 🐞bug, please, send me issue to:\nhttps://github.com/EugeneFenko/eugenefenko.github.io/issues")
