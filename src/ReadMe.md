@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://fenko.ga"><img src="https://github.com/EugeneFenko/eugenefenko.github.io/raw/master/tile150x150.png" style="border-radius: 20px;" alt="Markdownify" width="150px"></a>
+  <a href="https://fenko.ga"><kbd><img src="https://github.com/EugeneFenko/eugenefenko.github.io/raw/master/tile150x150.png" style="border-radius: 20px;" alt="Markdownify" width="150px"></kbd></a>
   <br>
   Eugene Fenko
   <br>
