@@ -186,7 +186,7 @@ fetch("https://api.github.com/users/EugeneFenko").then( data =>{
                 <p><i class="fas fa-bookmark"></i> Following: ${user.following}</p>
               </div>
               <div class="col-12 col-lg-6">
-              <p><i class="fas fa-link"></i> <a target="_blank" href="https://${user.blog}">${user.blog}</a></p>
+              <p><i class="fas fa-link"></i> <a target="_blank" href="https://${user.blog}">sourcerer.io</a></p>
               <p><i class="fab fa-free-code-camp"></i> <a target="_blank" href="https://www.freecodecamp.org/eugenefenko">freeCodeCamp</a></p>
               </div>
               <div class="col-12 col-lg-6">
