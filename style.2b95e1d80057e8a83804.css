@@ -9268,7 +9268,7 @@ footer {
 
 /* SCROLLBAR */
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 0px;
   background-color: #F5F5F5; }
 
@@ -9278,7 +9278,7 @@ footer {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 6px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #555; }
 
 /* Portfolio Items */
