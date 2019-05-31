@@ -203,14 +203,14 @@ function append(parent, el) {
   return parent.appendChild(el);
 }
 
-const github_div = document.getElementById("github-data");
+const github_div = document.getElementById("gitInfo");
 
 fetch("https://api.github.com/users/EugeneFenko").then( data =>{
     data.json().then(
         user => {
-          div_data = createNode('div')
-          div_data.className = "row"
-          div_data.innerHTML = `
+        //   div_data = createNode('div')
+        //   div_data.className = "row"
+          github_div.innerHTML = `
               <div class="col-12 col-sm-6">
                 <p><i class="fas fa-map-marker-alt"></i> ${user.location}</p>
                 <p><i class="fab fa-github"></i> <a target="_blank" href="${user.html_url}">${user.company}</a></p>

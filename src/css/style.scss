@@ -221,6 +221,15 @@ header {
     font-size: 1.2rem;
 }
 
+#gitInfo {
+    display: flex;
+    justify-content: center;
+}
+
+.gitLoader {
+    font-size: 4rem;
+}
+
 .about_text>h3 {
     font-size: 36px;
     padding: 0 0 10px 0;
