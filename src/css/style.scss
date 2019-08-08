@@ -594,14 +594,19 @@ header {
 .hire {
     padding: 50px;
     border-left: 1px dotted #999;
-}
 
-.hire img {
-    width: 70%;
+    img {
+        width: 70%;
+    }
 }
 
 .hire_fix div:first-child {
     border-left: none !important;
+}
+
+#upWorkLogo {
+    filter: grayscale(1);
+    cursor: not-allowed;
 }
 
 /* 3.7.1.ConactBox */

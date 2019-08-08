@@ -1,17 +1,5 @@
 var AOS = require('aos');
 
-// fullPage
-const fullpage = require('fullpage.js');
-
-new fullpage('#fullpage', {
-    navigation: true,
-    responsiveWidth: 700,
-    // anchors: ['home', 'about-us', 'contact'],
-    parallax: true,
-    onLeave: function(origin, destination, direction){
-        console.log("Leaving section" + origin.index);
-    },
-});
 
 //CSSans 
 function CSSans(s,n){var c='<div class="cssans__word">',e='<div class="cssans__accessible">'+encodeURI(n)+"</div>"+c;for(var i in n)e+=" "==n[i]?"</div>"+c:'<b class="cssans:'+encodeURI(n[i])+'"></b>';return e+="</div>",s.innerHTML=e,s.style.lineHeight="0px",e}
